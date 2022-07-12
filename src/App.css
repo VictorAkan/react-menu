@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+}
+
+.bottom__line {
+  height: 0.4rem;
+  width: 6rem;
+}
+img {
+  width: 14rem;
+  height: 8rem;
+  border: 4px solid rgb(168, 113, 3);
+  object-fit: cover;
+  display: block;
+}
+.head-header {
+  border-bottom: 0.5px dotted hsl(210, 22%, 49%);
+}
+.card {
+  border: none;
+  width: 38.75rem;
+}
+.section-center {
+  display: grid;
+  margin: 0 auto;
+  width: 90vw;
+  max-width: 73.125rem;
+  gap: 3rem 2rem;
+  justify-items: center;
+}
+.menu-item {
+  display: grid;
+  gap: 1rem 2rem;
+  max-width: 25rem;
+}
+  @media screen and (min-width: 768px) {
+    .menu-item {
+      grid-template-columns: 14.0625rem 1fr;
+      gap: 0 1.25rem;       
+      max-width: 40rem;
+    }
+    .photo {
+      height: 175px;
+    }
+  }
+@media screen and (min-width: 1200px) {
+  .section-center {
+    width: 95vw;
+    grid-template-columns: 1fr 1fr;
+  }
+  .photo {
+    height: 150px;
+  }
+}
+
+
